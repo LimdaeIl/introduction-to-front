@@ -1,23 +1,45 @@
 <!DOCTYPE html>
-<!--문서의 유형을 정의합니다.-->
-
-<html lang="ko">
-  <!-- 문서의 루트 요소로 HTML 문서의 시작을 알린다. 
-  Language의 약자이고, 한국어를 설명합니다. -->
-  <head>
-    <!-- 헤드 태그는 문서의 정보를 나타내는 태그입니다. 문서의 정보는 메타 태그를 이용하여 표현합니다. -->
-    
-    <meta charset="UTF-8">
-    <!-- 컴퓨터가 인간의 언어를 이해하기 위해서는 한국어같은 문자를 위해서는 "UTF-8" -->
-     
-    <meta name="viewport" content="width-device-width, inital-scale=1.0">
-     <!-- 반응형 웹 디자인을 위한 메타태그 width-device-width: 장치 크기 inital-scale: 사이즈(1.0 기본) -->
-
-     <title>프론트코딩</title>
-  </head>
-  <body>
-    <!-- 화면에 뿌려줄 데이터를 삽입한다.(글, 이미지 등) -->
-    
-
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원등록</title>
+</head>
+<body>
+  <div>
+    <form action="">
+      <h2>회원등록</h2>
+      <div>
+        <label for="nickname">사용자 이름</label>
+        <input type="text">
+        <span>알림</span>
+      </div>
+      <div>
+        <label for="userEmail">이메일 주소</label>
+        <input type="email">
+        <span>알림</span>
+      </div>
+      <div>
+        <label for="userPassword">비밀번호</label>
+        <input type="password">
+        <span>알림</span>
+      </div>
+      <div>
+        <label for="confirmPassword">비밀번호 확인</label>
+        <input type="password">
+        <span>알림</span>
+      </div>
+      <div>
+        <label for="phone">휴대전화번호</label>
+        <input type="tel">
+        <span>예: 010-1234-5678</span>
+      </div>
+      <button type="submit">등록완료</button>
+    </form>
+    <!-- form 태그는 웹 브라우저(프론트엔드)에서 웹 서버(백엔드)로 
+     데이터를 넘기고자 할 때 input 태그와 같이 작성해주는 태그입니다. -->
+  </div>
+  <!-- div 태그는 div 태그 안에 또 다른 태그나 값을 넣기 전까지는
+    영역과 공간을 가지지 않습니다. -->
+</body>
 </html>
